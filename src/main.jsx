@@ -16,8 +16,8 @@ ReactDOM.createRoot(document.getElementById('root')).render(
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <App/>
-    errorElement: <Error/> 
+    element: <App/>,
+    errorElement: <Error/>,
     children: [
       {
         path: "/",
