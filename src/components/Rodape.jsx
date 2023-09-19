@@ -1,8 +1,21 @@
-export default function Rodape(){
+import React from "react";
 
-    return(
-        <footer>
-            <p>Rodapé</p>
-        </footer>
-    )
+export default function Rodape() {
+  return (
+    <footer>
+      <div>
+        <ul>
+          <li>
+            <a href="">Github</a>
+          </li>
+          <li>
+            <a href="">X</a>
+          </li>
+          <li>
+            <a href="">Reddit</a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+  );
 }
