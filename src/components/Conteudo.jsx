@@ -1,20 +1,32 @@
-import reactLogo from "../assets/react.svg"
+import React from "react";
+// import reactLogo from "../assets/react.svg";
 
 export default function Conteudo(props) {
-
-    let reactLogoAlt = "React Logo";
-
+  // let altReactLogo = "Logo do React";
   return (
-    <>
-        <section>
-            <div>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum nam tenetur mollitia ullam numquam, animi architecto magnam maiores beatae? Quaerat nesciunt rem distinctio voluptas veritatis iure impedit omnis quia perspiciatis!</p>
-                <p>Autem voluptates laborum repellat rem, corporis ad. Earum officia vitae quibusdam doloremque repudiandae ducimus mollitia accusamus voluptatem reprehenderit quas dolorum quae, velit pariatur nulla modi assumenda iste minus aspernatur. Dicta.</p>
-                <p>Aut voluptate praesentium corporis non explicabo asperiores eos laudantium veniam fuga quidem repudiandae obcaecati illum, dicta nemo excepturi dignissimos distinctio velit cupiditate voluptatibus! Laboriosam harum, ipsa cum temporibus qui suscipit?</p>
-                <img src={reactLogo} alt={reactLogoAlt} />
-                <img src={props.viteLogoProps} alt={props.viteLogoAltProps} />
-            </div>
-        </section>
-    </>
-  )
+    <section>
+      <div>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat
+          eaque tempore ratione eligendi pariatur quae dicta minus veniam
+          incidunt temporibus suscipit odit vero, itaque, provident numquam
+          illum unde officiis consequuntur.
+        </p>
+        <p>
+          Sunt dolorum eaque aliquam nemo obcaecati nisi at quas delectus
+          quisquam voluptas quae accusamus nesciunt veniam aut mollitia, totam
+          cupiditate odit iste pariatur blanditiis nihil. Ad exercitationem
+          nesciunt voluptate repellendus.
+        </p>
+        <p>
+          Vitae assumenda consequatur eligendi consequuntur animi repellendus
+          corporis labore. Minus dolorum neque, ducimus quis hic necessitatibus.
+          Vero distinctio, nihil saepe quae nam impedit similique ducimus,
+          praesentium amet provident, sed modi.
+        </p>
+        {/* <img src={reactLogo} alt={altReactLogo} />
+        <img src={props.viteLogoProps} alt={props.altViteLogoProps} /> */}
+      </div>
+    </section>
+  );
 }
